@@ -56,7 +56,7 @@ triggers = {
 }
 
 resource "aws_api_gateway_domain_name" "this_secondary" {
-  regional_certificate_arn = module.acm_secondary.acm_certificate_arn
+  regional_certificate_arn = var.acm_certificate_arn_secondary
   domain_name     = "${var.domain_name}"
   endpoint_configuration {
     types = ["REGIONAL"]

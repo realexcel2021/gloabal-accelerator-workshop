@@ -10,7 +10,7 @@ payload = {
     "amount": "40000"
 }
 
-url = "https://demo.devopslord.com/create-tickets"
+url = "https://demo.devopslord.com/create-ticket"
  # get authentication bearer from cognito
 
 
